@@ -1,0 +1,12 @@
+CÁLCULO DE 51_abc DE 230kV:
+Usaremos a curva NORMAL INVERSA (N. I.) onde α = 0.02 e β = 0.14
+Usando pickup para a função 51 fase de 230kV igual à 351.431 A
+tms para a função 51 fase de 230 kV: 0.183
+
+
+CÁLCULO DE 51_abc DE 69kV:
+Usaremos a curva NORMAL INVERSA (N. I.) onde α = 0.02 e β = 0.14
+Usando pickup para a função 51 fase de 230kV igual à 1171.435 A
+tms para a função 51 fase de kV: 0.183
+
+
