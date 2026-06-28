@@ -1,12 +1,26 @@
 CÁLCULO DE 51_abc DE 230kV:
 Usaremos a curva NORMAL INVERSA (N. I.) onde α = 0.02 e β = 0.14
-Usando pickup para a função 51 fase de 230kV igual à 351.431 A
-tms para a função 51 fase de 230 kV: 0.183
+Sobrecarga = 351.43059863716354
+Pickup = 120 
+
+PRECISAREMOS DE 51 V EM SÉRIE, POIS A CORRENTE DO MENOR CURTO OBSERVADO (124.6 A) FAZ COM QUE SEJA NECESSÁRIO A DEFINIÇÃO DE UMA CORRENTE DE PICK-UP (120 A) MENOR DO QUE A CORRENTE OBSERVADA SOBRE SOBRECARGA (351.43059863716354 A)
+
+Encontramos um múltiplo de sensibilidade igual a: 11.955
+Usando pickup PRIMÁRIO para a função 51 fase do relé de 230kV igual à 120 A
+TMS para a função 51 fase de 230 kV: 0.327
+
 
 
 CÁLCULO DE 51_abc DE 69kV:
 Usaremos a curva NORMAL INVERSA (N. I.) onde α = 0.02 e β = 0.14
-Usando pickup para a função 51 fase de 230kV igual à 1171.435 A
-tms para a função 51 fase de kV: 0.183
+Sobrecarga = 1171.435328790545
+Pickup = 220
+
+PRECISAREMOS DE 51 V EM SÉRIE, POIS A CORRENTE DO MENOR CURTO OBSERVADO (239.2 A) FAZ COM QUE SEJA NECESSÁRIO A DEFINIÇÃO DE UMA CORRENTE DE PICK-UP (220 A) MENOR DO QUE A CORRENTE OBSERVADA SOBRE SOBRECARGA (1171.435328790545 A)
+
+Encontramos um múltiplo de sensibilidade igual a: 21.73590909090909
+Usando pickup PRIMÁRIO para a função 51 de fase do relé de 230kV igual à: 220 A
+TMS para a função 51 fase de kV: 0.408
+
 
 
