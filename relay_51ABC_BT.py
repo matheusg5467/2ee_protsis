@@ -25,8 +25,7 @@ i_sobrecarga = 1.4 * i_nominal_69kV
 print(f"Sobrecarga = {i_sobrecarga}")
 
 icc_min_69kV = 239.2 # Curto Bifásico na barra de 230kV
-multiplo_sensi = 2
-i_pickup = icc_min_69kV / multiplo_sensi 
+i_pickup = 220 # Pois deve ser sensível ao menor curto (239.2 A)!
 print(f"Pickup = {i_pickup}\n")
 
 if i_pickup < i_sobrecarga: 
@@ -34,6 +33,9 @@ if i_pickup < i_sobrecarga:
           f"FAZ COM QUE SEJA NECESSÁRIO A DEFINIÇÃO DE UMA CORRENTE DE PICK-UP ({i_pickup} A) "
           f"MENOR DO QUE A CORRENTE OBSERVADA SOBRE SOBRECARGA ({i_sobrecarga} A)\n")
 
+multiplo_sensi =  icc_max_69kV / i_pickup
+if multiplo_sensi < 2: 
+    sys.exit("Erro, múltiplo de sensibilidade está abaixo do esperado!")
 t_51_fase_69kV = t_instant + cti
 
 tms_51_fase_69kV = t_51_fase_69kV * (multiplo_sensi**alfa - 1) / beta
