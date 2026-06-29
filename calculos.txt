@@ -1,4 +1,10 @@
-CÁLCULO DE 51_abc DE 230kV:
+-----CÁLCULOS PARA 230kV:-----
+->CÁLCULO DE 50ABC de 230kV:
+Função 50ABC inútil neste cenário, corrente mínima de curto-circuito na Barra REMOTA maior do que as correntes de curto da barra de AT
+
+
+
+->CÁLCULO DE 51ABC DE 230kV:
 Usaremos a curva NORMAL INVERSA (N. I.) onde α = 0.02 e β = 0.14
 Sobrecarga = 351.43059863716354
 Pickup = 120 
@@ -11,7 +17,17 @@ TMS para a função 51 fase de 230 kV: 0.327
 
 
 
-CÁLCULO DE 51_abc DE 69kV:
+
+-----CÁLCULOS PARA 69kV:-----
+->CÁLCULO DE 50ABC de 69kV:
+OK! Definir corrente de pick-up baseando-se nos curtos em BT
+
+Corrente Nominal de 69kV: 836.74 A
+
+Corrente de pick-up PRIMÁRIA definida: 1700 A
+
+
+->CÁLCULO DE 51ABC DE 69kV:
 Usaremos a curva NORMAL INVERSA (N. I.) onde α = 0.02 e β = 0.14
 Sobrecarga = 1171.435328790545
 Pickup = 220
@@ -21,6 +37,7 @@ PRECISAREMOS DE 51 V EM SÉRIE, POIS A CORRENTE DO MENOR CURTO OBSERVADO (239.2 
 Encontramos um múltiplo de sensibilidade igual a: 21.73590909090909
 Usando pickup PRIMÁRIO para a função 51 de fase do relé de 230kV igual à: 220 A
 TMS para a função 51 fase de kV: 0.408
+
 
 
 
