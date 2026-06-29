@@ -19,4 +19,4 @@ print(f'Corrente Nominal de 69kV: {round(i_nominal_69kV, 3)} A\n')
 
 i_pickup = 1700 # Mais de 2x a corrente nominal e a corrente de curto na barra remota
 
-print(f'Corrente de pick-up definida: {i_pickup} A')
+print(f'Corrente de pick-up PRIMÁRIA definida: {i_pickup} A')
